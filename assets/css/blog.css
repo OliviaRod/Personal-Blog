@@ -1,0 +1,49 @@
+
+/* Posts page styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#postsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between post boxes */
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.post button.eraseButton {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.post button.eraseButton:hover {
+    background-color: #c9302c;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Dark mode styles */
